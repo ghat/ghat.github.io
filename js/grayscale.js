@@ -184,4 +184,11 @@ function init() {
         map: map,
         icon: image
     });
+
+    // jQuery
+    $('grid').masonry({
+    columnWidth: 200,
+    itemSelector: '.grid-item'
+    });
+
 }
